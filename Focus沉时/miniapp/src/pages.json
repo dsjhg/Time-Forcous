@@ -1,0 +1,79 @@
+{
+  "pages": [
+    {
+      "path": "pages/focus/index",
+      "style": {
+        "navigationBarTitleText": "Focus 沉时 · 专注"
+      }
+    },
+    {
+      "path": "pages/tasks/index",
+      "style": {
+        "navigationBarTitleText": "我的任务"
+      }
+    },
+    {
+      "path": "pages/rooms/index",
+      "style": {
+        "navigationBarTitleText": "一起自习"
+      }
+    },
+    {
+      "path": "pages/stats/index",
+      "style": {
+        "navigationBarTitleText": "专注记录"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "欢迎来到 Focus 沉时"
+      }
+    },
+    {
+      "path": "pages/wishes/index",
+      "style": {
+        "navigationBarTitleText": "心愿邮局 · 许愿墙"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fffaf0",
+    "backgroundColor": "#faf8f2"
+  },
+  "tabBar": {
+    "color": "#8b7a60",
+    "selectedColor": "#825c29",
+    "backgroundColor": "#fffdf7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/focus/index",
+        "text": "专注"
+      },
+      {
+        "pagePath": "pages/tasks/index",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/rooms/index",
+        "text": "自习室"
+      },
+      {
+        "pagePath": "pages/stats/index",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

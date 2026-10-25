@@ -1,0 +1,18 @@
+<template><view class="soft-chart"><canvas :id="chartId" :canvas-id="chartId" class="chart-canvas" :style="{height:'210px'}" :aria-label="label"/><text v-if="!total" class="chart-empty">还没有记录，下一次专注会留下颜色。</text></view></template>
+<script setup>
+import {computed,getCurrentInstance,nextTick,onMounted,onBeforeUnmount,watch} from 'vue';
+const props=defineProps({items:{type:Array,default:()=>[]},type:{type:String,default:'pie'},label:String});
+const instance=getCurrentInstance(),chartId='soft-chart-'+instance.uid,total=computed(()=>props.items.reduce((n,r)=>n+r.seconds,0));
+const colors=['#E8BE65','#E8AE93','#AFC3A2','#A6BEC9','#CAB5CA','#D5C293','#BFC5D7','#D1B49B'];
+let disposed=false,redrawTimer,retryTimer;
+function scheduleDraw(){clearTimeout(redrawTimer);clearTimeout(retryTimer);redrawTimer=setTimeout(draw,80);retryTimer=setTimeout(draw,350);}
+async function draw(){await nextTick();if(disposed)return;uni.createSelectorQuery().in(instance.proxy).select('#'+chartId).boundingClientRect(rect=>{if(!rect?.width||disposed)return;const w=rect.width,h=210,c=uni.createCanvasContext(chartId,instance.proxy);c.clearRect(0,0,w,h);c.setFontSize(11);c.setFillStyle('#94794e');
+ if(props.type==='pie'){let angle=-Math.PI/2;const x=w/2,y=100,r=82;if(!total.value){c.setFillStyle('#f2e8d3');c.beginPath();c.arc(x,y,r,0,Math.PI*2);c.fill();}else props.items.forEach((item,i)=>{const end=angle+item.seconds/total.value*Math.PI*2;c.beginPath();c.moveTo(x,y);c.arc(x,y,r,angle,end);c.closePath();c.setFillStyle(colors[i%colors.length]);c.fill();c.setStrokeStyle('#fffaf0');c.setLineWidth(2);c.stroke();angle=end;});c.beginPath();c.arc(x,y,48,0,Math.PI*2);c.setFillStyle('#fffaf0');c.fill();c.setTextAlign('center');c.setFillStyle('#715332');c.setFontSize(22);c.fillText(String(Math.round(total.value/60)),x,y);c.setFontSize(11);c.fillText('专注分钟',x,y+20);
+ }else{const left=32,right=w-12,top=20,bottom=177,max=Math.max(60,...props.items.map(r=>r.seconds)),n=props.items.length;
+ for(let i=0;i<4;i++){let y=bottom-(bottom-top)*i/3;c.setStrokeStyle('#eee2c9');c.setLineWidth(1);c.beginPath();c.moveTo(left,y);c.lineTo(right,y);c.stroke();c.setTextAlign('right');c.setFillStyle('#94794e');c.fillText(String(Math.round(max*i/3/60)),left-5,y+4);}
+ if(props.type==='bar'){const step=(right-left)/Math.max(1,n);props.items.forEach((r,i)=>{const bh=r.seconds/max*(bottom-top);c.setFillStyle(colors[i%colors.length]);c.fillRect(left+i*step+step*.22,bottom-bh,step*.56,bh);c.setTextAlign('center');c.setFillStyle('#94794e');c.fillText(r.label.slice(5).replace('-','/'),left+(i+.5)*step,199);});}
+ else{const step=(right-left)/Math.max(1,n);c.setStrokeStyle('#c9a04e');c.setLineWidth(2);c.beginPath();props.items.forEach((r,i)=>{const x=left+(i+.5)*step,y=bottom-r.seconds/max*(bottom-top);if(!i)c.moveTo(x,y);else c.lineTo(x,y);});c.stroke();props.items.forEach((r,i)=>{const x=left+(i+.5)*step,y=bottom-r.seconds/max*(bottom-top);c.setFillStyle('#e7ba61');c.beginPath();c.arc(x,y,2.6,0,Math.PI*2);c.fill();});for(let hour=0;hour<=24;hour+=4){c.setTextAlign('center');c.setFillStyle('#94794e');c.fillText(String(hour).padStart(2,'0'),left+(right-left)*hour/24,199);}}
+ }c.draw();}).exec();}
+watch(()=>[props.items,props.type],scheduleDraw,{deep:true});onMounted(()=>{scheduleDraw();uni.onWindowResize?.(scheduleDraw);});onBeforeUnmount(()=>{disposed=true;clearTimeout(redrawTimer);clearTimeout(retryTimer);uni.offWindowResize?.(scheduleDraw);});
+</script>
+<style scoped>.soft-chart{position:relative;width:100%;min-width:0}.chart-canvas{width:100%}.chart-empty{display:block;text-align:center;font-size:23rpx;color:#9b815a;padding:10rpx 0}</style>

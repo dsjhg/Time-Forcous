@@ -1,0 +1,11 @@
+[
+ {"id":"rain","name":"雨声","icon":"☂","file":"rain.mp3","author":"alex36917","editor":"Porrumentzio","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","source":"https://freesound.org/people/alex36917/sounds/524605/"},
+ {"id":"ocean","name":"海潮","icon":"≈","file":"waves.mp3","author":"Luftrum","editor":"Porrumentzio","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","source":"https://freesound.org/people/Luftrum/sounds/48412/"},
+ {"id":"birds","name":"林间鸟鸣","icon":"♧","file":"birds.mp3","author":"kvgarlic","editor":"Porrumentzio","license":"CC0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://freesound.org/people/kvgarlic/sounds/156826/"},
+ {"id":"stream","name":"山间溪流","icon":"≋","file":"stream.mp3","author":"gluckose","editor":"—","license":"CC0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://freesound.org/people/gluckose/sounds/333987/"},
+ {"id":"wind","name":"自然风声","icon":"彡","file":"wind.mp3","author":"felix.blume","editor":"Porrumentzio","license":"CC0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://freesound.org/people/felix.blume/sounds/217506/"},
+ {"id":"fireplace","name":"温暖壁炉","icon":"♨","file":"fireplace.mp3","author":"ezwa","editor":"—","license":"Public Domain","licenseUrl":"https://soundbible.com/1543-Fireplace.html","source":"https://soundbible.com/1543-Fireplace.html"},
+ {"id":"cafe","name":"咖啡馆","icon":"☕","file":"coffee-shop.mp3","author":"stephan","editor":"—","license":"Public Domain","licenseUrl":"https://soundbible.com/1664-Restaurant-Ambiance.html","source":"https://soundbible.com/1664-Restaurant-Ambiance.html"},
+ {"id":"night","name":"夏夜虫鸣","icon":"☾","file":"summer-night.mp3","author":"Lisa Redfern","editor":"—","license":"Public Domain","licenseUrl":"https://soundbible.com/2083-Crickets-Chirping-At-Night.html","source":"https://soundbible.com/2083-Crickets-Chirping-At-Night.html"},
+ {"id":"boat","name":"湖上小船","icon":"⛵","file":"boat.mp3","author":"Falcet","editor":"Porrumentzio","license":"CC0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://freesound.org/people/Falcet/sounds/439365/"}
+]

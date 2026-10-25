@@ -1,0 +1,83 @@
+[
+  {
+    "id": "rain",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/rain.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "b84c1daf259a24283be40b7663656d17676df4eb60c1e0332820570db891848a",
+    "outputSha256": "436510d3ddcea61c4d0f47bb2475b77f140b616fb545ece7c8712011b6f5a9b9",
+    "bytes": 1994126,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "ocean",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/waves.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "20e1aec7c7542f71645275871650881ea33bc92bd9816b243ea920bb1daa51a0",
+    "outputSha256": "69af6f3437661978150b4b41ff94bcb6f142072e5d98910befd8ae8776353495",
+    "bytes": 1889636,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "birds",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/birds.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "e59b19c2a377d5835d07e7ec8f8c876b9f40ae7f703738b55d616ef96a1638b2",
+    "outputSha256": "2c3bc2a4b74993ee648e46477f52324598df53b9a82a06a93109c1602f2eae84",
+    "bytes": 2078136,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "stream",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/stream.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "ce372c5db561168636647dd7d4aac39ef1785ae5d415ad0e589186ce1b7c5796",
+    "outputSha256": "9bdc16a7ef71c231f2bc9d48669024c080a1f1829f097e0cae7018dd8cbd0a0d",
+    "bytes": 2329747,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "wind",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/wind.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "cfdc81be69cd5f434ebfeb708bdf094725f3052d76691f550ff0e10eee3e32d2",
+    "outputSha256": "54f51d5b9e509dce6796724f883771c3c9254b775913b22615a7968fd4305147",
+    "bytes": 238697,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "fireplace",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/fireplace.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "a6395379a32c2dc30dd870c4571ded4a5311435aacfe354b3a82a9b3ab98620b",
+    "outputSha256": "da0425cf981a034f9ffa4fe1ecb5b91cf8e2b51fb5d3cce8e5a5d6c4975572f8",
+    "bytes": 409643,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "cafe",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/coffee-shop.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "397b5d95f06df69ba2989147cf9c37a417b2dc5950c1a16fbe6be6fa372d25ef",
+    "outputSha256": "9f6dadc9fd7687e0483fbc20e94acf333169eaa20c63f51416ae0f012050b50d",
+    "bytes": 267536,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "night",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/summer-night.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "2eb2efb8f5c6733e74dc8546f2ecfac40407e8242a9eed96a72e0fc68790ac6f",
+    "outputSha256": "fcfc97422867371ce517e76edaef751daf7679668bcfd2391ac70e1b5b1a0c40",
+    "bytes": 790403,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  },
+  {
+    "id": "boat",
+    "url": "https://raw.githubusercontent.com/rafaelmardojai/blanket/775f2a767230a9681850d1b1e085be58656f1382/data/resources/sounds/boat.ogg",
+    "revision": "775f2a767230a9681850d1b1e085be58656f1382",
+    "originalSha256": "e6f3565750e2d3dd0dcb5bd3f826c10e302df4d1d044dd177af0707abe027dea",
+    "outputSha256": "e44644904fa112172f23057d506d27634da217d5556d6616be10d4b66d0e4340",
+    "bytes": 666270,
+    "changes": "Blanket 已处理的循环音源；本项目统一响度并转码 MP3 128kbps / 44.1kHz，未截短。"
+  }
+]

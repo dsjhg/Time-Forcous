@@ -1,0 +1,69 @@
+page{background:#fffcf6;color:#5a4934;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}textarea{box-sizing:border-box;width:100%;background:#fffcf6;border:2rpx solid #f7f0e2;border-radius:22rpx;padding:24rpx;min-height:220rpx;color:#5a4934;font-size:26rpx;line-height:1.8}.screen{max-width:1000rpx;padding:28rpx 32rpx 70rpx}.headline{font-size:38rpx;letter-spacing:1rpx;font-weight:650;color:#5a4934}.eyebrow{color:#ab9067;font-size:18rpx;letter-spacing:3rpx}.card{border:2rpx solid #ffffff;background:#ffffffed;border-radius:34rpx;padding:32rpx;box-shadow:0 12rpx 40rpx #ab906710}.sage{background:linear-gradient(130deg,#f7f0e2,#f8e9e4);border:2rpx solid #fff}.primary{background:linear-gradient(110deg,#8d734f,#ab9067);color:#fff;box-shadow:0 10rpx 24rpx #ab906731}.secondary{background:#f7f0e2;color:#8d734f}.danger{background:#fcf0ed;color:#bc817c}.muted{color:#8d734f;font-size:23rpx}.title{color:#5a4934;font-size:30rpx}.pill{color:#8d734f;background:#f7f0e2}.avatar{background:linear-gradient(140deg,#f7f0e2,#f6e5dc);color:#8d734f;border-radius:50%}input{background:#fffcf6;border-color:#f7f0e2;color:#5a4934;font-size:26rpx}input:focus{border-color:#ab9067}.label{color:#8d734f}.footnote{color:#ab9067}.item{border-color:#f7f0e2}.number{color:#725b40}.error{background:#fff0ed;color:#b0706a}.segment{display:flex;gap:12rpx;background:#f7f0e2;padding:8rpx;border-radius:22rpx;margin:20rpx 0}.segment button{flex:1;background:transparent;color:#8d734f;padding:16rpx 10rpx;font-size:25rpx;box-shadow:none}.segment .selected{background:#fff;color:#725b40;box-shadow:0 3rpx 12rpx #ab906718}.section-meta{font-size:21rpx;color:#ab9067}.progress-track{height:14rpx;background:#f7f0e2;border-radius:30rpx;overflow:hidden;margin-top:22rpx}.progress-fill{height:100%;background:linear-gradient(90deg,#ccb58a,#e5b8b4);border-radius:30rpx;transition:width .3s}.decor-note{font-family:Georgia,"Songti SC",serif;color:#ab9067;letter-spacing:2rpx;font-size:25rpx;text-align:center;display:block;padding:30rpx 0}.account-name{font-size:22rpx;color:#ab9067}.preset-row{display:flex;justify-content:center;gap:16rpx;margin:25rpx 0}.preset-row button{font-size:22rpx;padding:14rpx 23rpx;background:#fffcf6;color:#ab9067}.preset-row .picked{background:#e9dcc1;color:#725b40}.timer-card{background:radial-gradient(ellipse at 50% 30%,#fffcf6,#ffffff 75%)}.timer-card .mode{background:#f7f0e2}.timer-card .mode text{color:#ab9067}.timer-card .mode .chosen{color:#8d734f}.timer-card .circle{border-width:7rpx;border-color:#f7f0e2;border-top-color:#ccb58a;border-right-color:#e9dcc1;box-shadow:0 0 0 14rpx #fffcf6,0 0 0 16rpx #fffcf6;background:radial-gradient(circle,#fff 30%,#fffcf6)}.timer-card .clock{color:#725b40;font-weight:350}.timer-card .task-name{color:#ab9067}.timer-card .picker{background:#fffcf6;color:#8d734f}.online-dot{width:14rpx;height:14rpx;border-radius:50%;background:#a9c6ae;display:inline-block;margin-right:9rpx}.online-dot.offline{background:#e9dcc1}
+/* 统一阅读与操作层级：手机优先，桌面使用双栏。 */
+/* Focus 沉时：奶油纸张、蜂蜜黄、鼠尾草绿。 */
+/* 黄色卡通统一主题，优先覆盖旧的绿色情绪色。 */
+.screen{padding-bottom:170rpx!important}
+.sage,.wish-shortcut{background:#fff3cc!important}
+.pill{background:#ffedb4!important;color:#806024!important}
+.progress-track{background:#f0e2b9!important}.progress-fill{background:#e8ba4f!important}
+.primary{border-radius:24rpx}.card{border-color:#efdfb8!important}
+.chart .bar{background:#e8ba4f!important;border:2rpx solid #d6a63a;border-radius:16rpx 16rpx 4rpx 4rpx}
+.wish-letter{width:108rpx;height:108rpx}
+.online-dot{background:#d5a739}
+page{background:#faf8f2;color:#574b39}
+.card{background:#fffefb;border-color:#e9e0ce;box-shadow:0 5rpx 0 #eee7d9;border-radius:30rpx}
+.sage{background:#eef3e7}
+.primary{background:#e8b857!important;color:#49381e!important;box-shadow:0 6rpx 0 #cc9b3f!important}
+.secondary{background:#f5ecd8!important;color:#775a2e!important}
+.progress-track{background:#e5e8da}.progress-fill{background:#a2b47e}
+.segment{background:#f0eadc}.segment .selected{color:#735b32;background:#fffdf7}
+.avatar{background:#eadbb9;color:#755830}
+.pill{background:#edf1e3;color:#617048}
+.timer-card{background:#fffefa}.timer-card .circle{background:#fffdf7;border-color:#eee6d4;border-top-color:#e4b957;border-right-color:#b7c69c;box-shadow:0 0 0 12rpx #fffaf0}
+.timer-card .clock{color:#5e4d34;font-weight:600;font-variant-numeric:tabular-nums}
+page{color:#5a4934}
+.screen{padding:28rpx 30rpx 90rpx}
+.card{border:1px solid #f7f0e2;border-radius:28rpx;box-shadow:0 8rpx 30rpx #5a493408}
+.primary{background:linear-gradient(115deg,#725b40,#8d734f);font-weight:600}
+.secondary{color:#725b40;background:#f7f0e2}
+.muted{color:#725b40;font-size:25rpx}
+.section-meta{color:#8d734f;font-size:23rpx}
+.footnote{color:#8d734f;font-size:23rpx}
+.eyebrow{color:#8d734f;letter-spacing:2rpx}
+.title{color:#5a4934;line-height:1.5}
+.row>.title{margin-bottom:0}
+.text-button{background:transparent;color:#725b40;font-size:24rpx;padding:16rpx 20rpx;min-height:76rpx;box-shadow:none}
+.destructive-link{color:#a75b67}
+.small{min-height:76rpx;font-size:24rpx;flex-shrink:0}
+.numbers{gap:24rpx}.numbers>view{flex:1;min-width:0}.number{overflow-wrap:anywhere}
+.segment button{min-height:76rpx;color:#725b40}
+button[disabled]{opacity:.48}
+.label{color:#725b40}
+.focus-layout,.support-layout{display:grid;grid-template-columns:minmax(0,1fr)}
+/* #ifdef H5 */
+uni-tabbar{display:none!important}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:radial-gradient(ellipse at 15% 10%,#f7f0e2,transparent 50%),radial-gradient(ellipse at 85% 90%,#f7e4da,transparent 50%),#fffcf6}uni-page-body{min-height:calc(100vh - 100px)}uni-page-head .uni-page-head{background:#fffcf6!important;color:#725b40}uni-tabbar .uni-tabbar{background:#fffcffed!important;border-top:1px solid #f7f0e2!important}uni-tabbar .uni-tabbar__label{font-size:12px!important}uni-tabbar .uni-tabbar__item{min-height:54px}button{transition:filter .2s}button:hover{filter:brightness(1.025)}
+/* #endif */
+/* #ifdef H5 */
+button:focus-visible,uni-button:focus-visible{outline:2px solid #725b40;outline-offset:3px}
+@media(min-width:1000px){.screen{max-width:1120px;padding:32px 32px 70px}.focus-layout{grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:24px;align-items:start}.support-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.focus-layout>.card,.support-layout>.card{margin-bottom:24px}.screen:not(.focus-screen){max-width:900px}.scenery.compact{height:180px}.task-list{max-width:760px;margin:auto}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media(min-width:1000px){.screen .muted,.screen .label{font-size:14px}.screen .section-meta,.screen .footnote{font-size:13px}.screen .title{font-size:18px}.screen button{font-size:14px}.screen .eyebrow{font-size:10px}.screen .card{padding:24px}.screen .scene-title{font-size:26px}.screen .scene-caption{font-size:14px}}
+body{background:#faf8f2!important;font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+uni-page-head .uni-page-head{background:#fffaf0!important;color:#574b39!important}
+uni-tabbar .uni-tabbar{background:#fffdf7!important;border-top:1px solid #e8dfcc!important}
+/* #endif */
+/* Desktop presentation pass: shared warm surfaces, readable scale, generous width. */
+/* #ifdef H5 */
+@media(min-width:1000px){
+ .screen.login-screen{max-width:900px}
+ .warm-dialog{max-width:560px!important;padding:28px!important;border-radius:26px!important}
+ .warm-dialog .dialog-head{font-size:22px}.warm-dialog .feedback-message{font-size:18px}
+}
+.empty{background:#fff8e7;border:1px dashed #e5cc93;border-radius:18px;padding:24px!important;text-align:center}
+input:focus,textarea:focus{outline:none;border-color:#d5ac59;box-shadow:0 0 0 3px #f0dca344}
+.warm-toast{font-family:"Microsoft YaHei",sans-serif}
+ /* #endif */
+
+
+
